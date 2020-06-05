@@ -1,0 +1,12 @@
+Binary Search
+Since every integer is weighted, we need to get the total sum before we pick a point
+The total sum does not exceed the integer max value, so we can use a int to store the sum
+After creating accumulated sum array, we generate a random point, r, between [0, sum) and perform binary search on this accumulated array
+Time complexity O(n)
+Space complexity O(n)
+
+TreeMap
+We can leverage the treemap built-in treemap to do similar thing as above
+Save the accumulated sum and its index, we can retrieve the index latter
+Time complexity O(n)
+Space complexity O(n)
